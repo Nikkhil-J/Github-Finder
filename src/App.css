@@ -41,7 +41,7 @@
   background-color: lightcoral;
   padding: 10px;
   font-size: 40px;
-  font-weight: bolder;
+  font-weight: 500;
 }
 
 .headerclass div{
@@ -81,5 +81,18 @@ form input{
 form button{
   flex:1;
   padding: 10px;
+}
+
+.formButton{
+  background: #000000;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.formButton:hover{
+  opacity: 0.8;
+
 }
 

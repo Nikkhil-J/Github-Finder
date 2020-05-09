@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import Header from './Header';
-import Form from './Form';
+import Header from './components/Header';
+import Form from './components/Form';
 import {BrowserRouter as Router , Route} from 'react-router-dom';
-import About from './About'
-import Home from './Home'
+import About from './components/About'
+import Home from './components/Home'
 
 
 function App() {

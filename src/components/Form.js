@@ -34,8 +34,7 @@ export class Form extends Component {
                     value={this.state.username}
                     placeholder="User to be searched.."
                     onChange={this.handleChange} />
-                    <button 
-                    style={{background:'red',border:"none"}}
+                    <button className="formButton"
                     type="submit"
                     >Search User</button>
                 </form>
