@@ -11,9 +11,7 @@ function Header() {
                 <Link className="linkClass" to="/">Events</Link>|
                 <Link className="linkClass" to="/about">About</Link>
             </div>
-            </header>
-            
-            
+            </header>            
         </div>
     )
 }

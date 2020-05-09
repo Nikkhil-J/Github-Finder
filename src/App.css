@@ -96,3 +96,26 @@ form button{
 
 }
 
+.card{
+  width: 400px;
+  height: 400px;
+  min-height: 20vh;
+  background-color: #eee;
+  margin:10px auto;
+  box-shadow: 0 1px 15px  black;
+  position: relative;
+  font-family: 'Roboto Slab', serif;
+}
+
+
+
+.flexclass{
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexclass{
+  margin: 0 15px;
+}
+
+
