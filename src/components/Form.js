@@ -36,7 +36,7 @@ export class Form extends Component {
                     onChange={this.handleChange} />
                     <button className="formButton"
                     type="submit"
-                    >Search User</button>
+                    >Search</button>
                 </form>
                 <FetchUser data={this.state.data}/>
             </div>

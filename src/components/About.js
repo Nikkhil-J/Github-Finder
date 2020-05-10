@@ -4,7 +4,7 @@ function About() {
     return (
         <div>
             <h4 style={{padding:'15px', margin:0 ,fontSize:'40px'
-           ,fontWeight:'400'}}>
+           ,fontWeight:'400',color:'white'}}>
            This is v1.0.0 of the Github Finder App</h4>
         </div>
     )

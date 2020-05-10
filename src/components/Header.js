@@ -6,12 +6,9 @@ function Header() {
     return (
         <div>
             <header  className="headerclass">
-            <BsPieChartFill size="1.8rem"/> Github User Finder
-            <div style={{textDecoration:'underline' , cursor: 'pointer'}}>
-                <Link className="linkClass"  to="/home">Home</Link>|
-                <Link className="linkClass" to="/form">Users</Link>|
-                <Link className="linkClass" to="/">Events</Link>|
-                <Link className="linkClass" to="/about">About</Link>
+            <Link to="/home"><BsPieChartFill className="heading-icon" color="white"  size="1.8rem"/></Link> GitFetch - Github User Finder
+            <div style={{ cursor: 'pointer'}}>
+                <Link className="linkClass" to="/form">Users</Link> | <Link className="linkClass" to="/about">About</Link>
             </div>
             </header>            
         </div>

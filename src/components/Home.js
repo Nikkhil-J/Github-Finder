@@ -4,7 +4,7 @@ function Home() {
     return (
         <div>
            <h4 style={{fontSize:'20px' ,padding:'15px', margin:0 ,fontSize:'40px'
-           ,fontWeight:'400'}}>
+           ,fontWeight:'400',color:"white"}}>
            Welcome to My Github Page</h4>
         </div>
     )

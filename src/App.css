@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  background: url('./holaucast.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -37,26 +41,35 @@
   }
 }
 
+
 .headerclass{
-  background-color: lightcoral;
   padding: 10px;
   font-size: 40px;
   font-weight: 500;
+  color: yellow;
 }
 
 .headerclass div{
   font-size: 20px;
 }
 
-
+.heading-icon:hover{
+  width: 3rem ;
+}
 
 .linkClass{
   font-weight: normal;
   color: white;
+  text-decoration: none;
+
 }
 
 .linkClass:hover{
-  color:black;
+  color:yellow;
+}
+
+.linkClass:active{
+  color: yellow;
 }
 
 
@@ -65,8 +78,9 @@
 
 form{
   display: flex;
-  width: 100%;
-  margin: auto;
+  width: 28%;
+  height: 40px;
+  margin: 5px auto;
   justify-content: space-around;
   
 
@@ -75,20 +89,30 @@ form{
 form input{
   flex: 9;
   padding: 10px;
-  
-}
+  border: none;
+  border-bottom: 1px solid white;
+  margin:0 15px;
+  background: none;
+  }
+
+  form input:focus{
+    outline: none;
+    border: 2px solid white;
+  }
+
+
 
 form button{
   flex:1;
   padding: 10px;
+  border: 5px solid yellow;
 }
 
 .formButton{
   background: #000000;
   color: white;
-  border: none;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 10px;
 }
 
 .formButton:hover{
@@ -123,5 +147,4 @@ form button{
 .flexclass{
   margin: 0 15px;
 }
-
 
