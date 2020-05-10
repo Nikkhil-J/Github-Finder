@@ -75,7 +75,6 @@
 
 
 
-
 form{
   display: flex;
   width: 28%;
@@ -90,7 +89,7 @@ form input{
   flex: 9;
   padding: 10px;
   border: none;
-  border-bottom: 1px solid white;
+  border-bottom: 3px solid white;
   margin:0 15px;
   background: none;
   }
@@ -106,6 +105,7 @@ form button{
   flex:1;
   padding: 10px;
   border: 5px solid yellow;
+  border-radius: 5px;
 }
 
 .formButton{
@@ -147,4 +147,32 @@ form button{
 .flexclass{
   margin: 0 15px;
 }
+
+.button{
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+  border: none;
+}
+
+.icons{
+  cursor: pointer;
+  color: black;
+  margin:0 10px;
+}
+
+.icons:hover{
+  color: red;
+}
+
+.cardclass{
+  background-color: lightblue;
+  color: black;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+
 
